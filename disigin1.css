@@ -115,6 +115,7 @@ span{
 .title{
     margin-top: 40px;
     display: flex; 
+    /* display: inline-block; */
     justify-content:center;
     color: #fff;;
     font-size: 40px;
@@ -123,6 +124,16 @@ span{
     margin-bottom:30px ;
     background-color: rgb(74, 16, 129); ;
 }
+/* 
+    margin-top: 40px;
+    display: flex; 
+    justify-content:center;
+    color: #fff;;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 800;
+    margin-bottom:30px ;
+    background-color: rgb(74, 16, 129);  */
 .content{
     color: rgb(74, 16, 129);
     display: flex;
@@ -144,7 +155,17 @@ span{
     transform: scale(1.1);
 }
 
-
+.title1{
+    margin-top: 40px;
+    display: flex; 
+    justify-content:center;
+    color: #fff;;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 800;
+    margin-bottom:30px ;
+    background-color: rgb(74, 16, 129); 
+}
 
 
 
@@ -297,5 +318,15 @@ span{
 .card:hover{
     transform: scale(1.1);
 }  
-
+.title1{
+    margin-top: 40px;
+    display: flex; 
+    justify-content:center;
+    color: #fff;;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 800;
+    margin-bottom:30px ;
+    background-color: rgb(74, 16, 129); 
+}
 }
